@@ -197,7 +197,4 @@ class FilePickerWeb extends FilePicker {
       start += _readStreamChunkSize;
     }
   }
-
-  @override
-  Future<void> setImagePickerTitle(String imagePickerTitle) async {}
 }
